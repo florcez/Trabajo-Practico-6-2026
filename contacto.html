@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protectora de animales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logotemporal.png" alt="logo">
+        <h1 class="nombre">Animales felices, casa feliz</h1>
+    </header>
+
+    <nav>
+        <a class="navtexto" href="inicio.html">Inicio</a>
+        <a class="navtexto" href= "acercade.html">Acerca de</a>
+        <a class="navtexto" href= "contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <form>
+            <section class="contacto">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" required>
+                
+
+                <label for="telefono">N° de telefono</label>
+                <input type="tel" id="telefono" required>
+                
+
+                <label for="correo">Email</label>
+                <input type="email" id="correo" required>
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" min="13" placeholder="Minimo 13 años" required>
+                
+
+                <label for="comment">Comentario</label>
+                <textarea type="text" id="comment" required></textarea> <!-- required porque no tienen que llegar comentarios vacios-->
+                
+                <button type="submit">Enviar</button>
+            </section>
+        </form>
+
+    </main>
+
+    <footer>
+        <h3>Diseño del sitio realizado por: Florencia Cézar</h3>
+
+        <h4 class="pwhite">OTROS ENLACES:</h4>
+        
+        <ul>
+            <li>
+                <a href="https://es.wikipedia.org/wiki/Animalia">
+                    <p>Animalia (Wikipedia)</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://concepto.de/animales/">
+                    <p>Animales (Concepto)</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.nationalgeographic.com.es/animales">
+                    <p>Animales (National Geographic España)</p>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+</body>
+</html>
